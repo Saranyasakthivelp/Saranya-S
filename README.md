@@ -1,0 +1,8 @@
+import random
+temperature=random.randint(0,120)
+print("Temperature=",temperature)
+hum_value=random.randint(30,55)
+if temperature>=25:
+    print("Alarm!")
+else:
+    print("Room temperature is normal,No worrie!!!")
